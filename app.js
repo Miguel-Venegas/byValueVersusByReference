@@ -49,3 +49,4 @@ console.log(d);
 // this is a special case where the equals operator sets up a new memory location for the variable; thus, it is no longer pointing to the same object by reference.
 
 
+// understanding these difference scenarios will help out greatly with debugging code in the future
