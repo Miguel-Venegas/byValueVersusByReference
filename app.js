@@ -24,4 +24,4 @@ c.greeting = 'hello'; // mutated the array
 console.log(c); //output = {greeting: 'hello'}
 console.log(d); //output = {greeting: 'hello'}
 
-// this output was different than the by-value output example above. Unlike the above example, both variables point to the same object. That is, no new copy is created. Thus, if you mutate the object, it will affect any variable referencing it as well. 
+// this output was different than the by-value output example above. Unlike the above example, both variables point to the same object. That is, no new copy is created. Thus, if you mutate the object, it will affect any variable referencing it as well. In other words, they are pointing to the same location in memory.
